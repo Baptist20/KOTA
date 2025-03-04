@@ -1,7 +1,8 @@
 import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
+  BanknotesIcon,
+  GlobeAltIcon,
+  ShieldCheckIcon,
+  LightBulbIcon,
 } from "@heroicons/react/20/solid";
 
 import Image from "next/image";
@@ -51,9 +52,17 @@ export default function AboutTheComapny() {
                 KOTA. KEYZIE ONLINE TRADING ACADEMY
               </h1>
               <p className="mt-6 text-xl/8 text-gray-700">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                id at vitae feugiat egestas.
+                Imagine having the ability to predict market movements, make
+                informed decisions, and consistently grow your portfolio—all
+                while navigating the complexities of global currencies with
+                ease. At KOTA, we don’t just teach you how to trade; we equip
+                you with the skills to thrive in one of the most lucrative
+                financial markets in the world.
+              </p>
+              <p className="mt-6 text-xl/8 text-gray-700">
+                Join us today and embark on a transformative journey where
+                education meets opportunity. Your path to financial
+                freedom starts here
               </p>
             </div>
           </div>
@@ -71,66 +80,85 @@ export default function AboutTheComapny() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base/7 text-gray-700 lg:max-w-lg">
-              <p>Benefits of learning with us:</p>
+              <p>
+                Learning forex trading as a young Nigerian can be a valuable
+                skill for several reasons:
+              </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon
+                  <BanknotesIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Expert instructors.
+                      Financial Independence -
                     </strong>{" "}
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    It allows you to take control of your financial future
+                    without relying solely on traditional employment.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon
+                  <GlobeAltIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Free, high-quality lessons.
+                      Global Market Access -
                     </strong>{" "}
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo.
+                    This exposure to international markets can broaden your
+                    financial knowledge and opportunities.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon
+                  <ShieldCheckIcon
                     aria-hidden="true"
                     className="mt-1 size-5 flex-none text-indigo-600"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Real-world trading strategies.
+                      Low Barrier to Entry -
                     </strong>{" "}
                     Ac tincidunt sapien vehicula erat auctor pellentesque
                     rhoncus. Et magna sit morbi lobortis.
                   </span>
                 </li>
+                <li className="flex gap-x-3">
+                  <LightBulbIcon
+                    aria-hidden="true"
+                    className="mt-1 size-5 flex-none text-indigo-600"
+                  />
+                  <span>
+                    <strong className="font-semibold text-gray-900">
+                      Skill Development -
+                    </strong>{" "}
+                    Forex trading teaches valuable skills such as financial
+                    analysis, risk management, and decision-making. These skills
+                    are transferable and can be useful in other areas of life
+                    and business.
+                  </span>
+                </li>
               </ul>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                Forex trading can be a powerful tool for young Nigerians to
+                achieve financial independence, develop valuable skills, and
+                navigate economic challenges. However, it requires dedication,
+                continuous learning, and a disciplined approach to succeed.
+                Start by educating yourself, practicing with demo accounts, and
+                seeking guidance from experienced traders.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
                 No money? No problem.
               </h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
-                vitae interdum mauris enim, consequat vulputate nibh. Maecenas
-                pellentesque id sed tellus mauris, ultrices mauris. Tincidunt
-                enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+                Forex trading is accessible even with low funds, but success
+                requires discipline, education, and proper risk management. By
+                starting small, leveraging technology, and focusing on
+                consistent growth, young Nigerians can use forex trading as a
+                tool to build wealth and achieve financial independence over
+                time. Always remember that trading involves risks, and it’s
+                important to trade responsibly.
               </p>
             </div>
           </div>

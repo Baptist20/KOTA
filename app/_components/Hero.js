@@ -4,14 +4,19 @@ export default function Hero() {
   return (
     <div className="py-32 sm:py-48 lg:py-50">
       <div className="relative isolate px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl ">
+        <div className="mx-auto max-w-4xl ">
           <div className="text-center">
-            <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-              lorem Ipsum is true, consetet
+            <h1 className="text-5xl font-semibold tracking-tight  text-gray-900 sm:text-7xl">
+              Unlock the Secrets of the Forex Market and Transform Your Trading
+              Journey
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
+              Welcome to KOTA , your ultimate gateway to mastering the art of
+              forex trading. Whether you&apos;re a complete beginner eager to
+              dive into the world of currency trading or an experienced trader
+              looking to refine your strategies, our comprehensive training
+              programs are designed to empower you with the knowledge, tools,
+              and confidence needed to succeed in the dynamic forex market.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
